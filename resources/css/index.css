@@ -82,3 +82,11 @@ h1 {
 p {
     font-size:6pt;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* Here is where we can resize things for smaller screens (between small and medium in this specific case */
+}
+
+@media only screen and (min-resolution: 300dpi) {
+    /* CSS for high resolution screens */
+}
